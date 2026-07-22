@@ -19,7 +19,6 @@ public class SecondsmallestNlargest {
                     secondLargest = arr[i];  
                     }
                 }
-
         return new int[] {secondSmallest,secondLargest };
         }
 
