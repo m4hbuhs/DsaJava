@@ -68,7 +68,7 @@ public class ThreeSum {
             while(j<k){
                 int sum =nums[i]+nums[j]+nums[k];
 
-                if(sum<0) i++;
+                if(sum<0) j++;
 
                 else if(sum>0) k--;
 
@@ -77,6 +77,9 @@ public class ThreeSum {
                     temp.add(nums[i]);
                     temp.add(nums[j]);
                     temp.add(nums[k]);
+
+                    list.add(temp);
+                    
                     j++;
                     k--;
                     while(j<k && nums[j]==nums[j-1]) j++;
