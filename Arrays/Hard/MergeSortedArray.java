@@ -103,6 +103,7 @@ public class MergeSortedArray {
             // Reduce gap
             gap = (gap / 2) + (gap % 2);
         }
+    }
 
 
     public static void main(String[] args) {
@@ -122,5 +123,5 @@ public class MergeSortedArray {
     System.out.println(Arrays.toString(arr1));
     System.out.println(Arrays.toString(arr2));
     
-}
+    }
 }
