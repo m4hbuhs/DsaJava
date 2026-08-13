@@ -28,9 +28,7 @@ public class ReversePair {
         int right = mid + 1;
         int count = 0;
         for (int left = low; left <= mid; left++) {
-            while (right <= high &&
-                (long) nums[left] > 2L * nums[right]) {
-
+            while (right <= high && (long) nums[left] > 2L * nums[right]) {
                 right++;
             }
 
