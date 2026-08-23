@@ -14,7 +14,6 @@ class Binarysearch{
     }
     //recursive
     private static int Bsearch(int[] arr,int target,int low,int high){
-        int n =arr.length;
         if(low>high) return -1;
         int mid=(low+high)/2;
         while(low<=high){

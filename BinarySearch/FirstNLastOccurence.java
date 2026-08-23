@@ -66,7 +66,7 @@ public class FirstNLastOccurence {
     private static int[] occurence(int[] arr,int target){
         int first = firstoccurence(arr, target);
         if(first==-1) return new int[] {-1,-1};
-        return new int[] {first,upperbond(arr, target)-1};
+        return new int[] {first,lastoccurence(arr, target)};
     }
     public static void main(String[] args) {
         int[] arr ={2,3,6,7,8,8,8,11,11,11,12};
