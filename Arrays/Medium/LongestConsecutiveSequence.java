@@ -24,7 +24,6 @@ public class LongestConsecutiveSequence {
 
             longest = Math.max(longest, count);
         }
-
         return longest;
     }
     public static int better(int[] nums) {
